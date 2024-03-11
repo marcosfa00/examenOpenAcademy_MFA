@@ -1,0 +1,37 @@
+<odoo>
+    <data>
+         <record model="productos" id="openacademy.productos">
+            <!-->Aquñi indicaremso que campos tiene la talba, o haremso referencia a ellso mejro dicho<-->
+
+            <field name="producto">Patatas</field>
+            <field name="viabilidad">7.8</field>
+
+        </record>
+        <record model="productos" id="productos_manzanas">
+    <field name="producto">Manzanas</field>
+    <field name="viabilidad">9.5</field>
+</record>
+
+<record model="productos" id="productos_lechuga">
+    <field name="producto">Lechuga</field>
+    <field name="viabilidad">8.2</field>
+</record>
+
+<record model="productos" id="productos_queso">
+    <field name="producto">Queso</field>
+    <field name="viabilidad">6.7</field>
+</record>
+
+<record model="productos" id="productos_tomates">
+    <field name="producto">Tomates</field>
+    <field name="viabilidad">9.0</field>
+</record>
+
+<!-- Agrega aquí el registro para el quinto producto -->
+<record model="productos" id="productos_quinto">
+    <field name="producto">Producto 5</field>
+    <field name="viabilidad">8.5</field>
+</record>
+
+    </data>
+</odoo>

@@ -23,7 +23,10 @@ class productos(models.Model):
     _name = "productos"
     _description = "Tabla de diferentes productos"
 
-    id = fields.Integer(string="ID")
+    id = fields.Integer(string="ID",widget='hidden')
     producto = fields.Char(string="Producto")
     viabilidad = fields.Float(string="Viabilidad", digits=(10, 2))
+
+
+
 
