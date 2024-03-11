@@ -265,6 +265,9 @@ Para añadir estos 5 Elementos a la tabla en nuestro **datos.xml** debemos escri
 ```
 
 
+Para probar que estos datos se añadieron correctamente  a la base de datos aquie esta la prueba
+
+![Screenshot 2024-03-11 at 1.35.02 PM.png](resources%2FScreenshot%202024-03-11%20at%201.35.02%E2%80%AFPM.png)
 
 
 
