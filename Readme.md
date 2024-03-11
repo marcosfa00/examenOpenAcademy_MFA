@@ -70,6 +70,31 @@ TRAS HACER ESTE COMANDO PODEMSO COMPROBAR COMO YA NOS APARECE DENTRO DE ADDONNS 
 
 **carpeta Resources** esta carpeta será donde irán todas las capturas de pantalla
 
+![Screenshot 2024-03-11 at 12.37.18 PM.png](resources%2FScreenshot%202024-03-11%20at%2012.37.18%E2%80%AFPM.png)
+
+Tras instalar el OpenAcademy, reiniciamos el servicio web para que nos aparezca dentro de nuestras APPs
+
+Bien, activamos el open academy y nos ponemso de lleno con el:
+
+## CONFIGURACION OPEN ACADEMY
+
+Para crear la tabla lo primero que debemos hacer es crear una clase con los datos de la tabla:
+
+```Python
+from odoo import models, fields #odoo falla porque no esta instalado en local
+
+class productos(models.Model):
+    _name = "productos"
+    _description = "Tabla de diferentes productos"
+
+    id = fields.Integer(string="ID")
+    producto = fields.Char(string="Producto")
+    viabilidad = fields.Float(string="Viabilidad", digits=(10, 2))
+```
+
+Tras hacer esto, vamos a crear una nueva carpeta que sea datos, dodne definiremso los 
+diferentes campso de la tabla
+
 
 
 
